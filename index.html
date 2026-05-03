@@ -667,10 +667,10 @@
     <!-- Scripts -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        // ========================================================================
+    
         // PENGATURAN DATA UNDANGAN (JSON)
         // Silakan ubah data di bawah ini. Kode akan otomatis menyesuaikan tampilan.
-        // ========================================================================
+
         window.WEDDING_DATA = {
             id: "yuda_muslimatul_vintagejawa", // ID unik untuk database ucapan klien ini (tanpa spasi)
             coupleName: "Yuda & Muslimatul", // Nama gabungan
@@ -788,7 +788,6 @@
                 ]
             }
         };
-        // ========================================================================
 
         // --- FUNGSI MENGISI DATA DARI JSON KE HTML ---
         function populateWeddingData() {
@@ -930,8 +929,6 @@
         }
         // Panggil fungsi segera setelah parse
         populateWeddingData();
-        // ---------------------------------------------
-
 
         function updateVh() {
             let vh = window.innerHeight * 0.01;
@@ -1407,13 +1404,6 @@ if (firebaseConfig.apiKey === "API_KEY_ANDA") {
                 submitBtn.disabled = false;
             }
         });
-
-        // ========================================================================
-        // KEAMANAN (ANTI COPY & ANTI INSPECT ELEMENT)
-        // Mempersulit orang untuk melihat atau menyalin source code
-        // ========================================================================
-        
-        // 1. Matikan Klik Kanan (Context Menu)
     </script>
 </body>
 </html>
